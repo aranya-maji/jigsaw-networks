@@ -9,6 +9,7 @@ document.getElementById("aboutusButton").addEventListener("mouseleave",() => but
 
 document.getElementById("getstartedButton").addEventListener("click",() => redirecter("solutions.html"));
 document.getElementById("aboutusButton").addEventListener("click",() => redirecter("aboutus.html"));
+document.getElementById("contactusButton").addEventListener("click",() => redirecter("contactus.html"));
 
 function buttonEnter(x,y){
     document.getElementById(x).style.backgroundColor = "#1C1C1C";
