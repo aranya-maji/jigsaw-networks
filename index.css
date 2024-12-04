@@ -61,6 +61,10 @@ body{
     align-self: flex-start;
 }
 
+#getstartedButton{
+    align-self: flex-start;
+}
+
 .datapane{
     display: flex;
     align-items: center;
@@ -101,7 +105,6 @@ body{
 #banner{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 30px;
     padding: 220px 50px;
@@ -118,6 +121,7 @@ body{
 #bannerData{
     padding: 0;
     margin: 0;
+    width: 30vw;
     font-size: 20px;
     color: white;
 }
@@ -295,6 +299,10 @@ body{
         align-self: flex-start;
     }
 
+    #getstartedButton{
+        align-self: flex-start;
+    }
+
     .datapane{
         display: flex;
         align-items: center;
@@ -335,7 +343,6 @@ body{
     #banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 30px;
         padding: 150px 50px;
@@ -353,6 +360,7 @@ body{
         padding: 0;
         margin: 0;
         font-size: 20px;
+        width: 30vw;
         color: white;
     }
 
@@ -530,6 +538,10 @@ body{
         align-self: flex-start;
     }
 
+    #getstartedButton{
+        align-self: flex-start;
+    }
+
     .datapane{
         display: flex;
         align-items: center;
@@ -570,7 +582,6 @@ body{
     #banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 30px;
         padding: 100px 50px;
@@ -588,6 +599,7 @@ body{
         padding: 0;
         margin: 0;
         font-size: 20px;
+        width: 30vw;
         color: white;
     }
 
@@ -765,6 +777,10 @@ body{
         align-self: flex-start;
     }
 
+    #getstartedButton{
+        align-self: flex-start;
+    }
+
     .datapane{
         display: flex;
         align-items: center;
@@ -805,7 +821,6 @@ body{
     #banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 10px;
         padding: 60px 50px;
@@ -823,6 +838,7 @@ body{
         padding: 0;
         margin: 0;
         font-size: 20px;
+        width: 30vw;
         color: white;
     }
 
@@ -1002,6 +1018,10 @@ body{
         align-self: flex-start;
     }
 
+    #getstartedButton{
+        align-self: flex-start;
+    }
+
     .datapane{
         display: flex;
         align-items: center;
@@ -1042,7 +1062,6 @@ body{
     #banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 10px;
         padding: 40px 50px;
@@ -1060,6 +1079,7 @@ body{
         padding: 0;
         margin: 0;
         font-size: 12px;
+        width: 30vw;
         color: white;
     }
 
@@ -1235,9 +1255,13 @@ body{
         font-size: 12px;
     }
 
-#aboutusButton{
-    align-self: flex-start;
-}
+    #aboutusButton{
+        align-self: flex-start;
+    }
+
+    #getstartedButton{
+        align-self: flex-start;
+    }
 
     .datapane{
         display: flex;
@@ -1279,7 +1303,6 @@ body{
     #banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 10px;
         padding: 30px 20px;
@@ -1297,6 +1320,7 @@ body{
         padding: 0;
         margin: 0;
         font-size: 12px;
+        width: 30vw;
         color: white;
     }
 
