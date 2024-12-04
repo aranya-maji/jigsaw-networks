@@ -80,6 +80,7 @@ body{
 
 .overviewData{
     display: flex;
+    flex-direction: column;
     align-self: stretch;
     padding: 0;
     margin: 0;
