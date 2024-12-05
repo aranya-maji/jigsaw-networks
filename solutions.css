@@ -27,11 +27,11 @@ body{
 .navpane{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 #upperlogo{
-    width: 70px;
+    width: 30px;
     height: auto;
 }
 
@@ -39,7 +39,7 @@ body{
     display: flex;
     padding: 0;
     margin: 0;
-    font-size: 40px;
+    font-size: 20px;
     color: white;
 }
 
@@ -48,7 +48,7 @@ body{
     align-items: center;
     padding: 0;
     margin: 0;
-    font-size: 34px;
+    font-size: 20px;
     color: white;
 }
 
@@ -82,7 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    font-size: 34px;
+    font-size: 20px;
     color: white;
     padding: 0;
     margin: 0;
@@ -92,7 +92,7 @@ body{
     display: flex;
     flex-direction: column;
     align-self: stretch;
-    font-size: 30px;
+    font-size: 16px;
     color: white;
     padding: 0;
     margin: 0;
@@ -101,7 +101,7 @@ body{
 .level2{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 16px;
     align-self: stretch;
     overflow: hidden;
     height: 0px;
@@ -123,14 +123,14 @@ body{
 
 .seeDataText{
     display: flex;
-    font-size: 24px;
+    font-size: 16px;
     color: white;
     padding: 0;
     margin: 0;
 }
 
 .cardHead{
-    font-size: 34px;
+    font-size: 20px;
     text-align: center;
     align-items: center;
     align-self: stretch;
@@ -141,14 +141,14 @@ body{
 
 #footer{
     display: flex;
-    gap: 100px;
+    gap: 50px;
     padding: 70px 100px;
     background: rgb(28, 28, 28);
 }
 
 #footerLogo{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 #footerDataPanel{
@@ -164,13 +164,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 10px;
+    padding: 5px;
     align-self: stretch;
 }
 
 .symbols{
-    width: 50px;
+    width: 20px;
     height: auto;
 }
 
@@ -178,176 +178,8 @@ body{
     padding: 0;
     margin: 0;
     display: flex;
-    font-size: 34px;
+    font-size: 16px;
     color: white;
-}
-
-@media only screen and (max-width: 1000px){
-    #navbar{
-        display: flex;
-        gap: 30px;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 50px;
-    }
-    
-    .navpane{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-    
-    #upperlogo{
-        width: 40px;
-        height: auto;
-    }
-    
-    #upperlogoText{
-        display: flex;
-        padding: 0;
-        margin: 0;
-        font-size: 30px;
-        color: white;
-    }
-    
-    #titleData{
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        font-size: 30px;
-        color: white;
-    }
-    
-    #solutionsPanel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 20px 50px;
-    }
-    
-    .solutionCard{
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        align-items: center;
-        padding: 0px 30px;
-        border-radius: 10px;
-        background: rgb(99, 99, 99);
-    }
-    
-    .level1{
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        gap: 20px;
-        padding: 30px 0px;
-    }
-    
-    .solutionHead{
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        font-size: 30px;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .solutionData{
-        display: flex;
-        flex-direction: column;
-        align-self: stretch;
-        font-size: 26px;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .level2{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        align-self: stretch;
-        overflow: hidden;
-        height: 0px;
-    }
-    
-    .attributes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        align-self: stretch;
-    }
-    
-    .seeData{
-        display: flex;
-        padding: 30px 0px;
-        align-self: stretch;
-    }
-    
-    .seeDataText{
-        display: flex;
-        font-size: 20px;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .cardHead{
-        font-size: 30px;
-        text-align: center;
-        align-items: center;
-        align-self: stretch;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
-    
-    #footer{
-        display: flex;
-        gap: 30px;
-        padding: 30px 50px;
-        background: rgb(28, 28, 28);
-    }
-    
-    #footerLogo{
-        width: 200px;
-        height: 200px;
-    }
-    
-    #footerDataPanel{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        flex: 1;
-        align-self: stretch;
-    }
-    
-    .detailPanel{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        padding: 10px;
-        align-self: stretch;
-    }
-    
-    .symbols{
-        width: 20px;
-        height: auto;
-    }
-    
-    .contactDetail{
-        padding: 0;
-        margin: 0;
-        display: flex;
-        font-size: 30px;
-        color: white;
-    }
 }
 
 @media only screen and (max-width: 700px){
@@ -366,7 +198,7 @@ body{
     }
     
     #upperlogo{
-        width: 40px;
+        width: 20px;
         height: auto;
     }
     
@@ -374,7 +206,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
     }
     
@@ -383,7 +215,7 @@ body{
         align-items: center;
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
     }
     
@@ -417,7 +249,7 @@ body{
         display: flex;
         flex-direction: column;
         align-self: stretch;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
         padding: 0;
         margin: 0;
@@ -427,7 +259,7 @@ body{
         display: flex;
         flex-direction: column;
         align-self: stretch;
-        font-size: 18px;
+        font-size: 14px;
         color: white;
         padding: 0;
         margin: 0;
@@ -458,14 +290,14 @@ body{
     
     .seeDataText{
         display: flex;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
         padding: 0;
         margin: 0;
     }
     
     .cardHead{
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         align-items: center;
         align-self: stretch;
@@ -482,8 +314,8 @@ body{
     }
     
     #footerLogo{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
     
     #footerDataPanel{
@@ -513,7 +345,7 @@ body{
         padding: 0;
         margin: 0;
         display: flex;
-        font-size: 20px;
+        font-size: 14px;
         color: white;
     }
 }
