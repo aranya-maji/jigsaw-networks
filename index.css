@@ -27,11 +27,11 @@ body{
 .navpane{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 #upperlogo{
-    width: 70px;
+    width: 50px;
     height: auto;
 }
 
@@ -39,7 +39,7 @@ body{
     display: flex;
     padding: 0;
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
@@ -54,7 +54,7 @@ body{
     display: flex;
     padding: 0;
     margin: 0;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #aboutusButton{
@@ -107,14 +107,14 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    padding: 220px 50px;
+    padding: 120px 50px;
     background-color: rgb(255, 255, 255);
 }
 
 #bannerHead{
     padding: 0;
     margin: 0;
-    font-size: 30px;
+    font-size: 24px;
     color: white;
 }
 
@@ -122,7 +122,7 @@ body{
     padding: 0;
     margin: 0;
     width: 30vw;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -149,7 +149,7 @@ body{
     margin: 0;
     align-self: stretch;
     color: rgb(255, 255, 255);
-    font-size: 34px;
+    font-size: 26px;
 }
 
 .overviewTextBody{
@@ -160,7 +160,7 @@ body{
     padding: 0;
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .overviewImageArea{
@@ -168,8 +168,8 @@ body{
 }
 
 .overviewImage{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #serviceCards{
@@ -192,7 +192,7 @@ body{
 }
 
 .cardHead{
-    font-size: 34px;
+    font-size: 26px;
     text-align: center;
     align-items: center;
     align-self: stretch;
@@ -202,7 +202,7 @@ body{
 }
 
 .cardData{
-    font-size: 18px;
+    font-size: 16px;
     align-items: center;
     align-self: stretch;
     color: white;
@@ -218,15 +218,15 @@ body{
 }
 
 #footerLogo{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 #footerDataPanel{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     flex: 1;
     align-self: stretch;
 }
@@ -235,13 +235,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 20px;
+    padding: 10px;
     align-self: stretch;
 }
 
 .symbols{
-    width: 50px;
+    width: 20px;
     height: auto;
 }
 
@@ -249,7 +249,7 @@ body{
     padding: 0;
     margin: 0;
     display: flex;
-    font-size: 34px;
+    font-size: 26px;
     color: white;
 }
 
@@ -265,7 +265,7 @@ body{
     .navpane{
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
 
     #upperlogo{
@@ -277,7 +277,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 32px;
+        font-size: 26px;
         color: white;
     }
 
@@ -292,7 +292,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     #aboutusButton{
@@ -322,7 +322,7 @@ body{
         padding: 0;
         margin: 0;
         align-self: stretch;
-        font-size: 30px;
+        font-size: 24px;
         color: white;
     }
 
@@ -331,7 +331,7 @@ body{
         padding: 0;
         margin: 0;
         align-self: stretch;
-        font-size: 14px;
+        font-size: 12px;
         color: white;
     }
 
@@ -344,7 +344,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        gap: 10px;
         padding: 150px 50px;
         background-color: rgb(255, 255, 255);
     }
@@ -352,14 +352,14 @@ body{
     #bannerHead{
         padding: 0;
         margin: 0;
-        font-size: 30px;
+        font-size: 18px;
         color: white;
     }
 
     #bannerData{
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 14px;
         width: 30vw;
         color: white;
     }
@@ -375,7 +375,7 @@ body{
     .overviewTextArea{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         align-self: stretch;
     }
     
@@ -387,7 +387,7 @@ body{
         margin: 0;
         align-self: stretch;
         color: rgb(255, 255, 255);
-        font-size: 34px;
+        font-size: 26px;
     }
     
     .overviewTextBody{
@@ -398,7 +398,7 @@ body{
         padding: 0;
         margin: 0;
         color: rgb(255, 255, 255);
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .overviewImageArea{
@@ -406,8 +406,8 @@ body{
     }
     
     .overviewImage{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 
     #serviceCards{
@@ -430,7 +430,7 @@ body{
     }
 
     .cardHead{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         align-items: center;
         align-self: stretch;
@@ -440,7 +440,7 @@ body{
     }
 
     .cardData{
-        font-size: 14px;
+        font-size: 12px;
         align-items: center;
         align-self: stretch;
         color: white;
@@ -456,8 +456,8 @@ body{
     }
 
     #footerLogo{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
 
     #footerDataPanel{
@@ -473,13 +473,13 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         padding: 10px;
         align-self: stretch;
     }
 
     .symbols{
-        width: 30px;
+        width: 20px;
         height: auto;
     }
 
@@ -487,7 +487,7 @@ body{
         padding: 0;
         margin: 0;
         display: flex;
-        font-size: 30px;
+        font-size: 20px;
         color: white;
     }
 }
@@ -504,11 +504,11 @@ body{
     .navpane{
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
 
     #upperlogo{
-        width: 50px;
+        width: 20px;
         height: auto;
     }
 
@@ -516,7 +516,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 32px;
+        font-size: 20px;
         color: white;
     }
 
@@ -531,7 +531,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 22px;
+        font-size: 16px;
     }
 
     #aboutusButton{
@@ -583,7 +583,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        gap: 10px;
         padding: 100px 50px;
         background-color: rgb(255, 255, 255);
     }
@@ -591,14 +591,14 @@ body{
     #bannerHead{
         padding: 0;
         margin: 0;
-        font-size: 30px;
+        font-size: 20px;
         color: white;
     }
     
     #bannerData{
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 14px;
         width: 30vw;
         color: white;
     }
@@ -607,7 +607,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 80px;
+        gap: 40px;
         padding: 70px 50px;
     }
 
@@ -626,7 +626,7 @@ body{
         margin: 0;
         align-self: stretch;
         color: rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .overviewTextBody{
@@ -637,7 +637,7 @@ body{
         padding: 0;
         margin: 0;
         color: rgb(255, 255, 255);
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .overviewImageArea{
@@ -645,8 +645,8 @@ body{
     }
 
     .overviewImage{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
 
     #serviceCards{
@@ -669,7 +669,7 @@ body{
     }
 
     .cardHead{
-        font-size: 26px;
+        font-size: 14px;
         text-align: center;
         align-items: center;
         align-self: stretch;
@@ -679,7 +679,7 @@ body{
     }
 
     .cardData{
-        font-size: 12px;
+        font-size: 10px;
         align-items: center;
         align-self: stretch;
         color: white;
@@ -695,8 +695,8 @@ body{
     }
 
     #footerLogo{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     #footerDataPanel{
@@ -712,7 +712,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
         padding: 8px;
         align-self: stretch;
     }
@@ -726,7 +726,7 @@ body{
         padding: 0;
         margin: 0;
         display: flex;
-        font-size: 26px;
+        font-size: 18px;
         color: white;
     }
 }
@@ -770,7 +770,7 @@ body{
         display: flex;
         padding: 0;
         margin: 0;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #aboutusButton{
@@ -830,14 +830,14 @@ body{
     #bannerHead{
         padding: 0;
         margin: 0;
-        font-size: 30px;
+        font-size: 18px;
         color: white;
     }
     
     #bannerData{
         padding: 0;
         margin: 0;
-        font-size: 20px;
+        font-size: 14px;
         width: 30vw;
         color: white;
     }
@@ -846,14 +846,14 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 50px;
-        padding: 30px 50px;
+        gap: 20px;
+        padding: 30px 30px;
     }
     
     .overviewTextArea{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 5px;
         align-self: stretch;
     }
     
@@ -865,7 +865,7 @@ body{
         margin: 0;
         align-self: stretch;
         color: rgb(255, 255, 255);
-        font-size: 26px;
+        font-size: 18px;
     }
     
     .overviewTextBody{
@@ -909,7 +909,7 @@ body{
     }
 
     .cardHead{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         align-items: center;
         align-self: stretch;
@@ -935,8 +935,8 @@ body{
     }
 
     #footerLogo{
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
 
     #footerDataPanel{
@@ -958,7 +958,7 @@ body{
     }
 
     .symbols{
-        width: 20px;
+        width: 10px;
         height: auto;
     }
 
@@ -966,7 +966,7 @@ body{
         padding: 0;
         margin: 0;
         display: flex;
-        font-size: 22px;
+        font-size: 16px;
         color: white;
     }
 }
@@ -975,7 +975,7 @@ body{
     #navbar{
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 10px;
         justify-content: space-between;
         align-items: center;
         padding: 10px 30px;
@@ -1064,7 +1064,7 @@ body{
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        padding: 40px 50px;
+        padding: 30px 30px;
         background-color: rgb(255, 255, 255);
     }
     
