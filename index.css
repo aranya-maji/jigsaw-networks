@@ -180,10 +180,16 @@ body{
 
 #serviceCards{
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 100px;
+}
+
+#cardHolder{
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 70px 100px;
 }
 
 .dataCard{
@@ -424,10 +430,16 @@ body{
 
     #serviceCards{
         display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px 70px;
+    }
+
+    #cardHolder{
+        display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding: 30px 70px;
     }
 
     .dataCard{
@@ -669,10 +681,17 @@ body{
 
     #serviceCards{
         display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 50px;
+    }
+
+    #cardHolder{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding: 20px 50px;
     }
 
     .dataCard{
@@ -916,10 +935,16 @@ body{
     #serviceCards{
         display: flex;
         flex-direction: column;
+        gap: 5px;
+        padding: 10px 30px;
+    }
+
+    #cardHolder{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 10px 30px;
     }
 
     .dataCard{
@@ -1163,10 +1188,16 @@ body{
     #serviceCards{
         display: flex;
         flex-direction: column;
+        gap: 5px;
+        padding: 10px 30px;
+    }
+
+    #cardHolder{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 10px 30px;
     }
 
     .dataCard{
@@ -1410,10 +1441,16 @@ body{
     #serviceCards{
         display: flex;
         flex-direction: column;
+        gap: 5px;
+        padding: 8px 20px;
+    }
+
+    #cardHolder{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 8px 20px;
     }
 
     .dataCard{
