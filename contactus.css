@@ -30,6 +30,12 @@ body{
     gap: 10px;
 }
 
+.headerOptions{
+    display: flex;
+    color: white;
+    font-size: 16px;
+}
+
 #upperlogo{
     width: 30px;
     height: auto;
@@ -210,7 +216,13 @@ body{
     .navpane{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
+    }
+
+    .headerOptions{
+        display: flex;
+        color: white;
+        font-size: 12px;
     }
     
     #upperlogo{
@@ -231,7 +243,7 @@ body{
         align-items: center;
         padding: 0;
         margin: 0;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
     }
     

@@ -11,6 +11,9 @@ document.getElementById("getstartedButton").addEventListener("click",() => redir
 document.getElementById("aboutusButton").addEventListener("click",() => redirecter("aboutus.html"));
 document.getElementById("contactusButton").addEventListener("click",() => redirecter("contactus.html"));
 
+document.getElementById("solutionsScroll").addEventListener("click",() => scroller("banner"));
+document.getElementById("aboutusScroll").addEventListener("click",() => scroller("aboutusPost"));
+
 function buttonEnter(x,y){
     document.getElementById(x).style.backgroundColor = "#1C1C1C";
     document.getElementById(y).style.color = "White";
@@ -27,6 +30,10 @@ function buttonExit(x,y){
 
 function redirecter(x){
     window.location.href = x;
+}
+
+function scroller(x){
+    document.getElementById(x).scrollIntoView();
 }
 
 var h1 = document.getElementById("dataCard1").offsetHeight;

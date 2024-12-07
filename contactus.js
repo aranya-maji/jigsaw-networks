@@ -2,6 +2,9 @@ document.getElementById("submitButton").addEventListener("mouseenter",() => butt
 document.getElementById("submitButton").addEventListener("mouseleave",() => buttonExit("submitButton","submitButtonText"));
 document.getElementById("submitButton").addEventListener("click",() => fetchData());
 
+document.getElementById("solutionsScroll").addEventListener("click",() => redirecter("solutions.html"));
+document.getElementById("aboutusScroll").addEventListener("click",() => redirecter("aboutus.html"));
+
 function buttonEnter(x,y){
     document.getElementById(x).style.backgroundColor = "#1C1C1C";
     document.getElementById(y).style.color = "White";
@@ -14,6 +17,10 @@ function buttonExit(x,y){
     document.getElementById(y).style.color = "Black";
     document.getElementById(x).style.transitionDuration = "0.5s";
     document.getElementById(y).style.transitionDuration = "0.5s";
+}
+
+function redirecter(x){
+    window.location.href = x;
 }
 
 function fetchData(){
