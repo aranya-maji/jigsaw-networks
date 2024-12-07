@@ -7,9 +7,22 @@ document.getElementById("getstartedButton").addEventListener("mouseleave",() => 
 document.getElementById("aboutusButton").addEventListener("mouseenter",() => buttonEnter("aboutusButton","aboutusButtonText"));
 document.getElementById("aboutusButton").addEventListener("mouseleave",() => buttonExit("aboutusButton","aboutusButtonText"));
 
+document.getElementById("knowmoreCard1").addEventListener("mouseenter",() => buttonEnter("knowmoreCard1","knowmoreCard1Text"));
+document.getElementById("knowmoreCard1").addEventListener("mouseleave",() => buttonExit("knowmoreCard1","knowmoreCard1Text"));
+
+document.getElementById("knowmoreCard2").addEventListener("mouseenter",() => buttonEnter("knowmoreCard2","knowmoreCard2Text"));
+document.getElementById("knowmoreCard2").addEventListener("mouseleave",() => buttonExit("knowmoreCard2","knowmoreCard2Text"));
+
+document.getElementById("knowmoreCard3").addEventListener("mouseenter",() => buttonEnter("knowmoreCard3","knowmoreCard3Text"));
+document.getElementById("knowmoreCard3").addEventListener("mouseleave",() => buttonExit("knowmoreCard3","knowmoreCard3Text"));
+
 document.getElementById("getstartedButton").addEventListener("click",() => redirecter("solutions.html"));
 document.getElementById("aboutusButton").addEventListener("click",() => redirecter("aboutus.html"));
 document.getElementById("contactusButton").addEventListener("click",() => redirecter("contactus.html"));
+
+document.getElementById("knowmoreCard1").addEventListener("click",() => redirecter("solutions.html#solutionCard1"));
+document.getElementById("knowmoreCard2").addEventListener("click",() => redirecter("solutions.html#solutionCard2"));
+document.getElementById("knowmoreCard3").addEventListener("click",() => redirecter("solutions.html#solutionCard3"));
 
 document.getElementById("solutionsScroll").addEventListener("click",() => scroller("banner"));
 document.getElementById("aboutusScroll").addEventListener("click",() => scroller("aboutusPost"));
